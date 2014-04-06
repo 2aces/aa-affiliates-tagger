@@ -1,0 +1,188 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: 2Ace's Affiliates Tagger\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-04-06 13:54-0300\n"
+"PO-Revision-Date: 2014-04-06 13:56-0300\n"
+"Last-Translator: Celso Bessa - 2Aces <celso.bessa@2aces.com.br>\n"
+"Language-Team: 2Aces <contato@2aces.com.br>\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: ./\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Generator: Poedit 1.6.4\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../lib/aa-affiliates-tagger-admin-page.php:15
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Você não tem permissão para acessar esta página"
+
+#: ../lib/aa-affiliates-tagger-admin-page.php:19
+msgid "Options for 2Ace's Affiliates Tagger by "
+msgstr "Opções do 2Ace's Affiliates Tagger por"
+
+#: ../lib/aa-affiliates-tagger-admin-page.php:20
+msgid ""
+"This version of the plugin uses Wordpress <strong><a href=\"https://codex."
+"wordpress.org/Shortcode\">shortcodes</a></strong> to print the tagged links. "
+"Basically, it means you have to enclose the text you want to tag and link "
+"inside pseudo-tags using square brackets <code>[]</code>, like this example: "
+"<code>[product merchant=\"wpengine\"]WP Engine avoids headaches![/product]</"
+"code>"
+msgstr ""
+"Esta versão do plugin usa <strong><a href=\"https://codex.wordpress.org/"
+"Shortcode\">shortcodes</a></strong> do Wordpress para mostrar os links com "
+"tags. Basicamente, significa que você deve encapsular o texto que quer "
+"tagear e linkar dentro de pseudo-tags usando chaves <code>[]</code>, como "
+"neste exemplo: <code>[product merchant=\"wpengine\"]WP Engine evita dores de "
+"cabeça![/product]</code>"
+
+#: ../lib/aa-affiliates-tagger-admin-page.php:21
+msgid ""
+"Note that inside the opening tag, there is an parameter indicating which "
+"merchant you are linking. Some merchants also demands that you use a product "
+"link parameter (example below)."
+msgstr ""
+"Note que a tag dentro da tag de abertura há um parâmetro indicando qual loja "
+"você quer linkar. Alguns deles demandam que você use o parâmetro productlink "
+"também. (exemplo abaixo)"
+
+#: ../lib/aa-affiliates-tagger-admin-page.php:22
+msgid "Instructions:"
+msgstr "Instruções"
+
+#: ../lib/aa-affiliates-tagger-admin-page.php:25
+msgid ""
+"Copy each of your IDs on the merchants/services affiliates programs and "
+"paste in the fields below"
+msgstr ""
+"Copie cada um de seus IDs de programas de afiliados das lojas/serviços nos "
+"campos abaixo"
+
+#: ../lib/aa-affiliates-tagger-admin-page.php:28
+msgid ""
+"If you haven't signed up for the affiliates program, you can click in each "
+"name below to visit their affiliates websites and sign up"
+msgstr ""
+"Se você ainda não se cadastrou nos programas de afiliados, você pode clicar "
+"em cada nomes abaixo para visitar o site de cada programa de afiliados e se "
+"cadastrar."
+
+#: ../lib/aa-affiliates-tagger-admin-page.php:31
+msgid "When creating a link to a merchant, use a shortcode like this:"
+msgstr "Quando criar o link para uma loja/serviço, use um shortcode como este:"
+
+#: ../lib/aa-affiliates-tagger-admin-page.php:35
+msgid ""
+"You must use smallcaps and no spaces or special characters on "
+"<code>merchant</code> parameter:"
+msgstr ""
+"Você deve usar minúsculas, sem espaços ou caracteres especiais no parâmetro "
+"<code>merchant</code>"
+
+#: ../lib/aa-affiliates-tagger-admin-page.php:39
+msgid ""
+"For shops (Amazon, Americanas, Apple, Cultura, Shoptime, SouBarato, "
+"Submarino and Submarino Viagens), you must use a product page link on "
+"<code>productlink</code> parameter:"
+msgstr ""
+"Para lojas (Amazon, Americanas, Apple, Cultura, Shoptime, SouBarato, "
+"Submarino and Submarino Viagens), você deve usar um link de página de "
+"produto no parâmetro <code>productlink</code>:"
+
+#: ../lib/aa-affiliates-tagger-admin-page.php:43
+msgid ""
+"If you are linking to hosting/managing services like Dreamhost, Media "
+"Temple, Manage WP and WP Engine, you don't need to use a product link at all "
+"and <code>productlink</code> parameter will be ignored. (e.g. <code>[product "
+"merchant=\"wpengine\"]WP Engine avoids headaches![/product]</code> )"
+msgstr ""
+"Se você está lindando para serviços de hospedagem e gerenciamento como "
+"Dreamhost, Media Temple, Manage WP and WP Engine, você não precisa usar um "
+"link de produto e o parâmetro productlink será ignorado (e.g. <code>[product "
+"merchant=\"wpengine\"]WP Engine evita dores de cabeça![/product]</code> )"
+
+#: ../lib/aa-affiliates-tagger-admin-page.php:48
+msgid "Insert your affiliates IDs"
+msgstr "Insira suas ID de afiliados"
+
+#: ../lib/aa-affiliates-tagger-admin-page.php:52
+msgid ""
+"If you don't fill in the fields below, the links will be tagged using 2Aces "
+"default values (i.e. our own affiliates IDs)"
+msgstr ""
+"Se você não preencher o campos baixo, os links serão tagueados usando os "
+"valores padrões da 2Aces (i.e. nossas próprias IDs de afiliados)"
+
+#: ../lib/aa-affiliates-tagger-admin-page.php:79
+#: ../lib/aa-affiliates-tagger-admin-page.php:90
+#: ../lib/aa-affiliates-tagger-admin-page.php:101
+#: ../lib/aa-affiliates-tagger-admin-page.php:112
+#: ../lib/aa-affiliates-tagger-admin-page.php:123
+#: ../lib/aa-affiliates-tagger-admin-page.php:134
+#: ../lib/aa-affiliates-tagger-admin-page.php:145
+#: ../lib/aa-affiliates-tagger-admin-page.php:156
+#: ../lib/aa-affiliates-tagger-admin-page.php:167
+#: ../lib/aa-affiliates-tagger-admin-page.php:178
+#: ../lib/aa-affiliates-tagger-admin-page.php:189
+#: ../lib/aa-affiliates-tagger-admin-page.php:200
+#: ../lib/aa-affiliates-tagger-admin-page.php:211
+msgid "click here to create your affiliate account"
+msgstr "clique aqui para criar sua conta de afiliado"
+
+#: ../lib/aa-affiliates-tagger-admin-page.php:222
+msgid ""
+"If this plugin helped you, you may consider consider giving @2AcesConteudo a "
+"tweet, ranking it good on Wordpress Plugin Repository or linking us on your "
+"blog: <a href=\"http://www.2aces.com.br\" title=\"2Aces Conteúdo e Estratégia"
+"\">www.2aces.com.br</a>"
+msgstr ""
+"Se este plugin foi útil para você, considere tuitar sobre a @2AcesConteudo , "
+"dar uma boa nota para o plugin no repositório de plugins Wordpress ou "
+"lindando-nos em seu blog: <a href=\"http://www.2aces.com.br\" title=\"2Aces "
+"Conteúdo e Estratégia\">www.2aces.com.br</a>"
+
+#: ../lib/aa-affiliates-tagger-admin-page.php:223
+msgid ""
+"If we may give you a suggestion, you should try <a href=\"http://j.mp/"
+"GerencieWPFacil\" rel=\"nofollow\">ManageWP</a> to make your blog life "
+"easier.<br/>(full disclosure: if you sign up for a paid plan, we get a small "
+"commission.)"
+msgstr ""
+"Se nos permite a sugestão, você deveria testar o <a href=\"http://j.mp/"
+"GerencieWPFacil\" rel=\"nofollow\">ManageWP</a> para fazer sua vida blocando "
+"mais fácil.<br/>(sendo transparentes: se voce assinar um plano pago, nós "
+"ganhamos uma pequena comissão.)"
+
+#, fuzzy
+#~ msgid "Dreamhost"
+#~ msgstr ""
+#~ "Se você está lindando para serviços de hospedagem e gerenciamento como "
+#~ "Dreamhost, Media Temple, Manage WP and WP Engine, você não precisa usar "
+#~ "um link de produto e o parâmetro productlink será ignorado (e.g. "
+#~ "<code>[product merchant=\"wpengine\"]WP Engine evita dores de cabeça![/"
+#~ "product]</code> )"
+
+#, fuzzy
+#~ msgid "Shoptime"
+#~ msgstr ""
+#~ "Para lojas (Amazon, Americanas, Apple, Cultura, Shoptime, SouBarato, "
+#~ "Submarino and Submarino Viagens), você deve usar um link de página de "
+#~ "produto no parâmetro <code>productlink</code>:"
+
+#, fuzzy
+#~ msgid "Submarino"
+#~ msgstr ""
+#~ "Para lojas (Amazon, Americanas, Apple, Cultura, Shoptime, SouBarato, "
+#~ "Submarino and Submarino Viagens), você deve usar um link de página de "
+#~ "produto no parâmetro <code>productlink</code>:"
+
+#, fuzzy
+#~ msgid "Submarino Viagens"
+#~ msgstr ""
+#~ "Para lojas (Amazon, Americanas, Apple, Cultura, Shoptime, SouBarato, "
+#~ "Submarino and Submarino Viagens), você deve usar um link de página de "
+#~ "produto no parâmetro <code>productlink</code>:"
