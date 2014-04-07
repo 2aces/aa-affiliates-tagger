@@ -1,7 +1,7 @@
-=== Amazon's Publisher Studio Loader by 2Aces ===
+=== 2Ace's Affiliates Tagger by 2Aces ===
 Contributors: celsobessa
 Donate link: http://www.2aces.com.br/wordpress-plugins/aa-affiliates-tagger/
-Tags: 2aces, Amazon, Publisher Studio, affiliates, monetize
+Tags: 2aces, Amazon, Submarino, Americanas.com, Dreamhost, affiliates, monetize
 Requires at least: 3.5
 Tested up to: 3.8
 Stable tag: 0.2
