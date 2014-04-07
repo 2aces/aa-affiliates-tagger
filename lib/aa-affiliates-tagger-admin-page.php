@@ -16,7 +16,7 @@ if ( ! defined( 'ABSPATH' ) || ! is_admin() ) {
 	};
     ?>
 	<div class="wrap">
-		<h2><?php _e('Options for 2Ace\'s Affiliates Tagger by ', 'aa-affiliates-tagger'); echo '2Aces'; ?></h2>
+		<h2><?php _e('Options for WP Affiliates Tagger by ', 'aa-affiliates-tagger'); echo '2Aces'; ?></h2>
 		<p><?php _e('This version of the plugin uses Wordpress <strong><a href="https://codex.wordpress.org/Shortcode">shortcodes</a></strong> to print the tagged links. Basically, it means you have to enclose the text you want to tag and link inside pseudo-tags using square brackets <code>[]</code>, like this example: <code>[product merchant="wpengine"]WP Engine avoids headaches![/product]</code>', 'aa-affiliates-tagger');?></p>
 		<p><?php _e('Note that inside the opening tag, there is an parameter indicating which merchant you are linking. Some merchants also demands that you use a product link parameter (example below).', 'aa-affiliates-tagger');?></p>
 		<h3><?php _e('Instructions:', 'aa-affiliates-tagger');?></h3>

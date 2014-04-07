@@ -1,7 +1,7 @@
-=== 2Ace's Affiliates Tagger by 2Aces ===
+=== WP Affiliates Tagger by 2Aces ===
 Contributors: celsobessa
 Donate link: http://www.2aces.com.br/wordpress-plugins/aa-affiliates-tagger/
-Tags: 2aces, Amazon, Submarino, Americanas.com, Dreamhost, affiliates, monetize
+Tags: 2aces, Amazon, Submarino, Americanas.com, Dreamhost, affiliates, monetize, Afiliados, Submarino Viagens, ShopTime, SouBarato, ManageWP, WP Engine, Media Temple, monetização
 Requires at least: 3.5
 Tested up to: 3.8
 Stable tag: 0.2
@@ -12,11 +12,16 @@ Affiliates program tagger for several merchants with Brazil, United States and/o
 
 == Description ==
 
-Affiliates program tagger for several merchants with Brazil, United States and/or global coverage: Afiliados (BR, Amazon (US), Americanas.com (BR), Apple / PHG (BR, Europe, South America and US, Livraria Cultura (BR), Dreamhost (US), ManageWP (Global), Media Temple (Global), ShopTime (BR), Submarino (BR), Submarino Viagens (BR), WP Engine (Global). <strong>This version uses <a href="https://codex.wordpress.org/Shortcode">shortcodes</a> to print the tagged links, future version will allow the use Wordpress buttons (TinyMCE)</strong>
+Affiliates program tagger for several merchants with Brazil, United States and/or global coverage: Afiliados (BR), Amazon (US), Americanas.com (BR), Apple / PHG (BR, Europe, South America and US), Livraria Cultura (BR), Dreamhost (US), ManageWP (Global), Media Temple (Global), ShopTime (BR), Submarino (BR), Submarino Viagens (BR), WP Engine (Global). <strong>This version uses <a href="https://codex.wordpress.org/Shortcode">shortcodes</a> to print the tagged links, future version will allow the use Wordpress buttons (TinyMCE)</strong>
+
+If this plugin helped you, you may consider consider giving @2AcesConteudo a tweet, ranking it good on Wordpress Plugin Repository or linking us on your blog: www.2aces.com.br
+
+If we may give you a suggestion, you should try ManageWP ( http://j.mp/GerencieWPFacil ) to make your blog life easier.
+(full disclosure: if you sign up for a paid plan, we get a small commission.)
 
 == Installation ==
 
-1. Upload `/aa-affiliates-tagger/` folder to the `/wp-content/plugins/` directory
+1. Download the aa-affiliates-tagger.zip file, unzip it and upload `/aa-affiliates-tagger/` folder to the `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
 3. Copy each of your IDs on the merchants/services affiliates programs and paste in the fields below
 4. If you haven't signed up for the affiliates program, you can click in each name in options page to visit their affiliates websites and sign up

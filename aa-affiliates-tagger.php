@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: 2Ace's Affiliates Tagger
+Plugin Name: WP Affiliates Tagger by 2Aces
 Plugin URI: http://www.2aces.com.br/wordpress-plugins/aa-affiliates-tagger/
 Description: Affiliates program tagger for several merchants with Brazil, United States and/or global coverage: Afiliados (BR, Amazon (US), Americanas.com (BR), Apple / PHG (BR, Europe, South America and US, Livraria Cultura (BR), Dreamhost (US), ManageWP (Global), Media Temple (Global), ShopTime (BR), Submarino (BR), Submarino Viagens (BR), WP Engine (Global). <strong>This version uses <a href="https://codex.wordpress.org/Shortcode">shortcodes</a> to print the tagged links, future version will allow the use Wordpress buttons (TinyMCE)</strong>
 Author: Celso Bessa / 2ACES
@@ -64,7 +64,7 @@ add_action('admin_init', 'aa_at_action_init');
 add_action( 'admin_menu', 'aa_at_menu' );
 
 function aa_at_menu() {
-	add_options_page( '2Ace\'s Affiliates Tagger Options', '2Ace\'s Affiliates Tagger', 'manage_options', 'aa-at.php', 'aa_at_options' );
+	add_options_page( 'WP Affiliates Tagger by 2Aces Options', 'WP Affiliates Tagger by 2aces', 'manage_options', 'aa-at.php', 'aa_at_options' );
 }
 
 function aa_at_options() {
